@@ -1,0 +1,43 @@
+.cardShoe{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2em;
+    padding: 1em;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border-radius: 0.5em;
+}
+
+.cardShoe img{
+    cursor: pointer;
+    width: 332px;
+    height: 332px;
+}
+
+.cardShoe h2{
+    color: #222;
+}
+.prices {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.priceShoe, .priceDivided{
+    display: flex;
+    align-items: center;
+}
+.priceShoe{
+    gap: 1em;
+}
+.priceDivided {
+    gap: 0.5em;
+}
+.priceShoe span{
+    font-size: 12px;
+    text-decoration: line-through;
+    color: #474545;
+}
+
+.priceDivided span{
+    font-size: 12px;
+}

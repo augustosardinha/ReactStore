@@ -1,0 +1,31 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #C4C4C4;
+    height: 300px;
+    padding: 2em 0;
+}
+.footerInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+.footerInfo h2, .footerInfo p{
+    font-size: 1em;
+    color: #474545;
+}
+.footerInfo p {
+    font-weight: 400;
+}
+
+.logos svg{
+    color: #fff;
+    font-size: 2em;
+}
+
+.divider{
+    width: 1px;
+    height: 100%;
+    background: #6D6B6B;
+}

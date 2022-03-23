@@ -1,0 +1,13 @@
+.main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 5em;
+    gap: 2em;
+}
+
+.main.overflow{
+    overflow: hidden;
+}
